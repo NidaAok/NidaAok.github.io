@@ -13,7 +13,7 @@ body{
 
 a{
   text-decoration: none;
-  color: pink;
+  color: #F0BAF0;
 }
 
 a:hover{
@@ -37,11 +37,11 @@ h2{
 }
 
 .text-pink{
-  color: pink;
+  color: #8C058C;
 }
 
 .text-darkblue{
-  color: #002060;
+  color: #8C058C;
 }
 
 .text-uppercase{

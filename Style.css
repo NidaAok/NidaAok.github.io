@@ -9,7 +9,7 @@ body{
   font-weight: 300;
   font-size: .9rem;
   line-height: 1.5;
-  background-image: url("fondBody.jpeg");
+  background-image: url(Desktop/imageCV/fondBody.png);
 }
 
 a{
@@ -70,7 +70,7 @@ h2{
 .left-column{
   grid-area: left-column;
   padding: 50px;
-  background-color: #F7E0F6;
+  background-color: #E567D8;
   color: white;
 }
 

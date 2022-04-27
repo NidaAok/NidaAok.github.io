@@ -2,25 +2,22 @@
 *{
   margin: 0;
   box-sizing: border-box;
-
-
+  font-family: 'Comfortaa', cursive;
 }
 
 body{
   font-family: Roboto;
-  font-weight: 1000;
+  font-weight: 100;
   font-size: .9rem;
   line-height: 1.5;
-  background-image: url(fondCV.jpeg);
   background-attachment:fixed;
-
+  background-image: url("fondCV.jpeg");
 }
-
 
 
 a{
   text-decoration: none;
-  color: #F0BAF0;
+  color: #6402AF;
 }
 
 a:hover{
@@ -45,19 +42,18 @@ h2{
 }
 
 .text-pink{
-  color: #6D3C7C;
+  color: #6402AF;
+  font-size: 10px; 
 }
 
 .text-pink{
-  color: #6D3C7C;
+  color: #6402AF;
+  font-size: 10px; 
 }
 
 .text-uppercase{
-  text-transform: uppercase; 
-}
-
-.icon{
-  margin-right: .5rem;
+  text-transform: uppercase;
+  font-size: 10px; 
 }
 
 .cv-container{
@@ -66,8 +62,8 @@ h2{
   grid-template-areas: "left-column right-column right-column";
   width: 1200px;
   margin: 150px auto;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  background-image: url(fondBody.png);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+  background-color: #EFDBFE;
 
 }
 
@@ -135,3 +131,48 @@ h2{
 .experience-list{
   list-style-type: circle;
 }
+
+
+#menu {
+list-style-type: none;
+margin: 0;
+padding: 20;
+background-image: url("banHaut.png");
+background-size: cover;
+height: 180px;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+}
+
+
+.casemenu{
+text-align: center;
+justify-content: center;
+align-items: center;
+float: left;
+display: flex;
+width: 140px;
+height: 40px;
+margin: 30px;
+margin-left: 240px;
+margin-top: 30px;
+border: 20px hotpink;
+background-color: lightpink;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+}
+
+a.liensmenu{
+  text-decoration: none;
+  color: rebeccapurple;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 900;
+}
+
+#banBas{
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+

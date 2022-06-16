@@ -1,11 +1,22 @@
 /* GENERAL */
-div#contenu {
+
+#bandeau {
+  float: left;
+  align-content: space-between;
+display: flex-start;
+  width:200px;
+  height:350px;
+  background-color:#CBCBCB;
+  margin-bottom: 50px;
+  border-spacing: 50px 1rem;
+
+
+  }
+#contenu {
   width:600px;
   height:400px;
-  background-color:#FFCC00;
+  background-color:#CACACA;
+  margin-bottom: 20px;
+  border-spacing: 50px 1rem;
   }
-div#piedpage {
-  width:600px;
-  height:50px;
-  background-color:#33FF99;
-  }
+

@@ -1,0 +1,177 @@
+/* GENERAL */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+body{
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: .9rem;
+  line-height: 1.5;
+  background-attachment:fixed;
+  background-image: url("images/FondCV.jpeg");
+}
+
+
+a{
+  text-decoration: none;
+  color: #6402AF;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  margin: 0 0 1rem;
+}
+
+h1{
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+h2{
+  margin: 0 0 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-pink{
+  color: #6402AF;
+  font-size: 10px; 
+}
+
+.text-pink{
+  color: #6402AF;
+  font-size: 10px; 
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+  font-size: 10px; 
+}
+
+.cv-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left-column right-column right-column";
+  width: 1200px;
+  margin: 150px auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+  background-color: #EFDBFE;
+
+}
+
+.section{
+  margin-bottom: 2rem;
+}
+
+/* LEFT COLUMN */
+.left-column{
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #C11AB1;
+  color: white;
+}
+
+.portait{
+  border-radius: 50%;
+  max-width: 300px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.skills{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+}
+
+/* RIGHT COLUMN */
+.right-column{
+  grid-area: right-column;
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas: 
+    "header"
+    "content";
+}
+
+/* HEADER */
+.header{
+  grid-area: header;
+  padding: 50px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.infos{
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* CONTENT */
+.content{
+  grid-area: content;
+  padding: 50px;
+}
+
+.experience-list{
+  list-style-type: circle;
+}
+
+
+#menu {
+list-style-type: none;
+margin: 0;
+padding: 20;
+background-image: url("images/banHaut.png");
+background-size: cover;
+height: 180px;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+}
+
+
+.casemenu{
+text-align: center;
+justify-content: center;
+align-items: center;
+float: left;
+display: flex;
+width: 140px;
+height: 40px;
+margin: 30px;
+margin-left: 240px;
+margin-top: 30px;
+border: 20px hotpink;
+background-color: lightpink;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5), 1px 2px 3px rgba(0,0,0,1);
+}
+
+a.liensmenu{
+  text-decoration: none;
+  color: rebeccapurple;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 900;
+}
+
+#banBas{
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+

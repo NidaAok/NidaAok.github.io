@@ -6,7 +6,6 @@ margin: 1em;
   }
 
 .gauche {
-display: flex;
 background-color: #CBCBCB;
 flex-direction: column;
 border: 1px inset; 
@@ -16,7 +15,6 @@ text-align: left;
 
 }
 .titre1{
-  display: flex;
   background-color: #E8E7E6;
   border: 1px inset;
   margin: 1em;
@@ -25,42 +23,67 @@ flex-direction: column;
 
 }
 .centre {
-display: flex;
-background-color: #CBCBCB;
+background-color: #B1B1B1;
 border-width:2px;
 border-style:dotted;
 border-color:black;
 margin: 1em;
 flex-direction: column;
-padding: 1em;
+padding: 2em;
+margin-right: 1em;
 }
 
-.titre2{
+.boitehaut{
+  text-align: center;
   display: flex;
+  background-color: #CBCBCB;
+  border: 1px inset;
+  margin: 1em;
+  padding: 1em;
+flex-direction: column;
+}
+.titrehaut{
   background-color: #E8E7E6;
   border: 1px inset;
   margin: 1em;
   padding: 1em;
 flex-direction: column;
+}
+.textehaut{
+  background-color: #CBCBCB;
+  margin: 1em;
+flex-direction: column;
+}
+
+.textebas{
+  background-color: #CBCBCB;
+  border: 1px inset;
+  margin: 1em;
+  padding: 1em;
+  border: 1px inset;
+flex-direction: column;
 
 }
 
 .droite {
-display: flex;
 background-color: #CBCBCB;
 border: 1px solid #000;
 margin: 1em;
 flex-direction: column;
 padding: 1em;
-
+text-align: right;
 }
-.titre1{
-  display: flex;
+
+.titredroit{
   background-color: #E8E7E6;
-  border: 1px solid #000;
+  border: 1px inset;
   margin: 1em;
   padding: 1em;
 flex-direction: column;
+text-align: center;
+
+
 }
+
 
 

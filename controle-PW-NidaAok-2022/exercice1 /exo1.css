@@ -2,16 +2,19 @@
 .main {
 display: flex;
 flex-direction: row;
-margin: 1em;
+align-items: flex-start;
+justify-content: space-between;
   }
 
 .gauche {
 background-color: #CBCBCB;
-flex-direction: column;
-border: 1px inset; 
+border: 1px solid #000;
 margin: 1em;
+flex-direction: column;
 padding: 1em;
 text-align: left;
+width: 160px;
+height: 350px;
 
 }
 .titre1{
@@ -20,17 +23,22 @@ text-align: left;
   margin: 1em;
   padding: 1em;
 flex-direction: column;
+text-align: center;
+
 
 }
 .centre {
 background-color: #B1B1B1;
-border-width:2px;
+border-width:1px;
 border-style:dotted;
 border-color:black;
 margin: 1em;
 flex-direction: column;
-padding: 2em;
+padding: 1em;
 margin-right: 1em;
+width: 760px;
+height: 450px;
+
 }
 
 .boitehaut{
@@ -72,18 +80,40 @@ margin: 1em;
 flex-direction: column;
 padding: 1em;
 text-align: right;
+width: 160px;
+height: 350px;
 }
 
 .titredroit{
   background-color: #E8E7E6;
-  border: 1px inset;
+  border: 1px outset;
   margin: 1em;
   padding: 1em;
 flex-direction: column;
 text-align: center;
 
+}
+
+.piedpage {
+  width:1250px;
+  height:150px;
+  padding: 1em;
+  margin: 1em;
+  background-color:#CBCBCB;
+  }
+
+  .titrepied{
+ background-color: #E8E7E6;
+  border: 1px outset;
+  margin: 1em;
+  padding: 1em;
+flex-direction: column;
+text-align: center;
+ width:1200px;
+  height:20px;
 
 }
+
 
 
 

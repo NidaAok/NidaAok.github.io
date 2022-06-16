@@ -6,6 +6,11 @@ align-items: flex-start;
 justify-content: space-between;
   }
 
+.Malettrine{
+font-size:2em
+
+}
+
 .gauche {
 background-color: #CBCBCB;
 border: 1px solid #000;

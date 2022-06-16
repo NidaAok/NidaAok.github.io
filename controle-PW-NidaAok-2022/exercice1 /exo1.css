@@ -24,20 +24,20 @@ height: 350px;
   padding: 1em;
 flex-direction: column;
 text-align: center;
-
+width: 100px;
+height: 50px;
 
 }
 .centre {
 background-color: #B1B1B1;
-border-width:1px;
 border-style:dotted;
 border-color:black;
 margin: 1em;
 flex-direction: column;
-padding: 1em;
+padding: 0.1em;
 margin-right: 1em;
 width: 760px;
-height: 450px;
+height: 480px;
 
 }
 
@@ -49,28 +49,56 @@ height: 450px;
   margin: 1em;
   padding: 1em;
 flex-direction: column;
+border-top: 1px solid #000;
 }
 .titrehaut{
   background-color: #E8E7E6;
   border: 1px inset;
   margin: 1em;
-  padding: 1em;
+  padding: em;
+  margin-left: 210px;
 flex-direction: column;
+width: 260px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .textehaut{
   background-color: #CBCBCB;
   margin: 1em;
 flex-direction: column;
+text-align: justify;
 }
 
-.textebas{
+.boitebas{
   background-color: #CBCBCB;
-  border: 1px inset;
   margin: 1em;
   padding: 1em;
   border: 1px inset;
 flex-direction: column;
+border-bottom: 1px solid #000;
+}
 
+.titrebas{
+font-style: italic;
+text-align: right;
+}
+
+.textebas{
+  background-color: #CBCBCB;
+  margin: 1em;
+flex-direction: column;
+border-left:1px solid #000 ;
+border-right: 1px solid #000 ;
+padding-right: 2em;
+padding-left: 1em;
+text-align: justify;
+width:550px;
+height: 50px;
+margin-right: 10px;
+margin-left: 40px;
+margin-bottom: 30px;
 }
 
 .droite {
@@ -96,21 +124,27 @@ text-align: center;
 
 .piedpage {
   width:1250px;
-  height:150px;
+  height:100px;
   padding: 1em;
   margin: 1em;
   background-color:#CBCBCB;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  text-align: center;
   }
 
   .titrepied{
+    font-style: italic;
  background-color: #E8E7E6;
   border: 1px outset;
-  margin: 1em;
   padding: 1em;
 flex-direction: column;
 text-align: center;
  width:1200px;
   height:20px;
+  display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
